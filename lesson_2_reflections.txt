@@ -3,3 +3,19 @@ It creates the metadata with the necessary git files so that  I can start commit
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area and the repository seem quite related, the working copy might contain extra files that we don't want to version control.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can just add to the staging area the changes relevant to one logical change, while leaving out other unrelated changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Maintaining different versions of the code.
+
+How do the diagrams help you visualize the branch structure?
+Showing the reachability
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+One a single branch containing all the commits of both branches
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Changes that are not conflicting can be automatically merged, only conflicting changes need to be manually merged
